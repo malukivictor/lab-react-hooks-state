@@ -37,7 +37,7 @@ const App = () => {
         mode.
       </p>
 
-      <DarkModeToggle toggleDarkMode={toggleDarkMode} />
+      <DarkModeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 
       {}
       <label>Filter by Category: </label>
